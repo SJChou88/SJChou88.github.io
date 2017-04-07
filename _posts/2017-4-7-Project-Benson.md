@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project 1 : Benson
+title: Project 1 : Benson  
 ---
 
 The first project we worked on in the Metis Data Science bootcamp was titled Project Benson. In this project, we were given the task of assigning groups to collect e-mail signatures of people interested in women in tech outside of subway stations. In effect, we were to identify the best subway stations. We were told about the MTA turnstile data and briefly brainstormed other possible data sources and then told to go at it in smaller groups. This project was a data exploration, cleaning, and analysis exercise.  
