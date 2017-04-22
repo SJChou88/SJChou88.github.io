@@ -4,7 +4,7 @@ title: Project 2 - Luther
 ---
 
 For the second project at Metis bootcamp, I chose to do a data scrapping and linear regression model on soccer data. This is a subject I'm particularly interested in and felt I would be able to learn a lot about data scrapping and apply the regression techniques we were learning about in class to the dataset well. My original goal was to attempt to predict a teams success in a given season using previous seasons data and transfers done, which would give an additional benefit of measuring how much money had to be spent to purchase an additional point.
-The website I chose to scrap is <www.transfermarkt.com>. This is a german website that is well known for having a large transfer database for many teams. I was originally going to scrape another website for the tables of each previous season, but transfermarkt actually had a pretty good source for that as well. Sample website that I would need to scrape look like below.  
+The website I chose to scrap is <www.transfermarkt.com>. This is a german website that is well known for having a large transfer database for many teams. I was originally going to scrape another website for the tables of each previous season, but transfermarkt actually had a pretty good source for that as well. Sample website that I would need to scrape look like below.
 ![alt text](https://github.com/SJChou88/SJChou88.github.io/blob/master/images/soccer_analysis_images/Standings_Image.png?raw=true "Table Image")
 ![alt text](https://github.com/SJChou88/SJChou88.github.io/blob/master/images/soccer_analysis_images/Transfers_Image.png?raw=true "Transfer Image")
 
