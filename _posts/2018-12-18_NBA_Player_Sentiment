@@ -1,0 +1,11 @@
+---
+layout: post
+title: r/NBA Sentiment Analysis - Initial Proposal
+---
+
+  I've been considering a new project to familiarize myself with some natural language processing techniques. I decided to trying to do some sentiment analysis on the subreddit [nba](https://www.reddit.com/r/nba/). The goal would be to score what the general population of the subreddit thought of a player in a given time period. There's a lot of text data that requires sorting into categories and then more parsing of the data before performing sentiment analysis. There's also an extension of this where I could deploy this on a website and have an active sentiment of a variety of players, or branching into other subreddits, for example, [r/politics](https://www.reddit.com/r/politics/).
+
+*Step 1. Getting the Data*
+  Initial thoughts for getting the data involved scraping reddit or using the official reddit api. However, I quickly learned that this kind of data query was no longer supported. In it's place though was the [pushshift project](https://pushshift.io/) alongside it's subreddit [r/pushshift](https://www.reddit.com/r/pushshift/). There are large .gz archives of comments and topics grouped by every month. I didn't actually use these (didn't actually work on my computer) but they're there. I did manage to get the API working and was able to parse a load of data into a pandas dataframe. I still need to figure out the format I need the data in before the interesting work begins.
+
+  The next blog post will talk about the transformations and possibly delving into the sentiment analysis.
